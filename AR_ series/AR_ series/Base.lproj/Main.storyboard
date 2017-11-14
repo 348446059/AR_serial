@@ -18,18 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnl-jn-hsE">
-                                <rect key="frame" x="157" y="97" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="太阳系"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KES-iG-GzG">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="demoOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1H0-y0-x84"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="NUy-JK-zTQ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="PHt-en-40i"/>
                                 </connections>
-                            </button>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KES-iG-GzG" secondAttribute="bottom" id="2cU-2j-eAW"/>
+                            <constraint firstItem="KES-iG-GzG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="437-QR-ERr"/>
+                            <constraint firstItem="KES-iG-GzG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KTE-SN-Wpk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KES-iG-GzG" secondAttribute="trailing" id="g31-KW-aFU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="KES-iG-GzG" id="H6u-jU-8ZD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
