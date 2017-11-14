@@ -22,6 +22,7 @@
 		094DBEB41FB85865003E21F9 /* CABasicAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DBEB31FB85865003E21F9 /* CABasicAnimationExtension.swift */; };
 		097722731FBA8CBE00C262C0 /* 1510533381.gif in Resources */ = {isa = PBXBuildFile; fileRef = 097722721FBA8CBE00C262C0 /* 1510533381.gif */; };
 		097722751FBA8CD000C262C0 /* 1510626388.gif in Resources */ = {isa = PBXBuildFile; fileRef = 097722741FBA8CCF00C262C0 /* 1510626388.gif */; };
+		097722771FBA947400C262C0 /* 1510626387.gif in Resources */ = {isa = PBXBuildFile; fileRef = 097722761FBA947300C262C0 /* 1510626387.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		094DBEB31FB85865003E21F9 /* CABasicAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CABasicAnimationExtension.swift; sourceTree = "<group>"; };
 		097722721FBA8CBE00C262C0 /* 1510533381.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1510533381.gif; sourceTree = "<group>"; };
 		097722741FBA8CCF00C262C0 /* 1510626388.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1510626388.gif; sourceTree = "<group>"; };
+		097722761FBA947300C262C0 /* 1510626387.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1510626387.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		097722711FBA8CBE00C262C0 /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				097722761FBA947300C262C0 /* 1510626387.gif */,
 				097722721FBA8CBE00C262C0 /* 1510533381.gif */,
 				097722741FBA8CCF00C262C0 /* 1510626388.gif */,
 			);
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				094DBEA71FB7EBE5003E21F9 /* LaunchScreen.storyboard in Resources */,
+				097722771FBA947400C262C0 /* 1510626387.gif in Resources */,
 				094DBEB21FB7FA28003E21F9 /* art.scnassets in Resources */,
 				097722751FBA8CD000C262C0 /* 1510626388.gif in Resources */,
 				094DBEA41FB7EBE5003E21F9 /* Assets.xcassets in Resources */,
