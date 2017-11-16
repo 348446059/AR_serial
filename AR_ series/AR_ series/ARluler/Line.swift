@@ -97,22 +97,6 @@ class Line {
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     func update(to vector:SCNVector3)  {
         //把所有的线先给移除
         lineNode?.removeFromParentNode()
@@ -142,7 +126,6 @@ class Line {
     func distance(to vector:SCNVector3) -> String {
         return String(format: "%0.2f %@", startVector.distance(form: vector)*unit.factor,unit.name)
     }
-    
     
     func remove()  {
         startNode.removeFromParentNode()

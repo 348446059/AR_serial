@@ -12,6 +12,7 @@
 		091805EE1FB9782000DBF315 /* RulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091805EC1FB9782000DBF315 /* RulerViewController.swift */; };
 		091805EF1FB9782000DBF315 /* RulerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091805ED1FB9782000DBF315 /* RulerViewController.xib */; };
 		091805F11FB97AF900DBF315 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091805F01FB97AF900DBF315 /* Line.swift */; };
+		093956711FBB1892008F51D1 /* ship.scn in Resources */ = {isa = PBXBuildFile; fileRef = 093956701FBB1892008F51D1 /* ship.scn */; };
 		094DBE9D1FB7EBE5003E21F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DBE9C1FB7EBE5003E21F9 /* AppDelegate.swift */; };
 		094DBE9F1FB7EBE5003E21F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DBE9E1FB7EBE5003E21F9 /* ViewController.swift */; };
 		094DBEA21FB7EBE5003E21F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094DBEA01FB7EBE5003E21F9 /* Main.storyboard */; };
@@ -23,6 +24,12 @@
 		097722731FBA8CBE00C262C0 /* 1510533381.gif in Resources */ = {isa = PBXBuildFile; fileRef = 097722721FBA8CBE00C262C0 /* 1510533381.gif */; };
 		097722751FBA8CD000C262C0 /* 1510626388.gif in Resources */ = {isa = PBXBuildFile; fileRef = 097722741FBA8CCF00C262C0 /* 1510626388.gif */; };
 		097722771FBA947400C262C0 /* 1510626387.gif in Resources */ = {isa = PBXBuildFile; fileRef = 097722761FBA947300C262C0 /* 1510626387.gif */; };
+		09CEC4251FBBE48E00FC1B34 /* DoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEC4231FBBE48E00FC1B34 /* DoorViewController.swift */; };
+		09CEC4261FBBE48E00FC1B34 /* DoorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CEC4241FBBE48E00FC1B34 /* DoorViewController.xib */; };
+		09CEC4291FBC0E9100FC1B34 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEC4271FBC0E9100FC1B34 /* TestViewController.swift */; };
+		09CEC42A1FBC0E9100FC1B34 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CEC4281FBC0E9100FC1B34 /* TestViewController.xib */; };
+		09CEC42C1FBC0F6200FC1B34 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEC42B1FBC0F6200FC1B34 /* Plane.swift */; };
+		09F5566B1FBD51DA004DCC03 /* 1510807754.gif in Resources */ = {isa = PBXBuildFile; fileRef = 09F5566A1FBD51DA004DCC03 /* 1510807754.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,7 @@
 		091805EC1FB9782000DBF315 /* RulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerViewController.swift; sourceTree = "<group>"; };
 		091805ED1FB9782000DBF315 /* RulerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RulerViewController.xib; sourceTree = "<group>"; };
 		091805F01FB97AF900DBF315 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		093956701FBB1892008F51D1 /* ship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship.scn; sourceTree = "<group>"; };
 		094DBE991FB7EBE5003E21F9 /* AR_ series.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR_ series.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		094DBE9C1FB7EBE5003E21F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		094DBE9E1FB7EBE5003E21F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +52,12 @@
 		097722721FBA8CBE00C262C0 /* 1510533381.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1510533381.gif; sourceTree = "<group>"; };
 		097722741FBA8CCF00C262C0 /* 1510626388.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1510626388.gif; sourceTree = "<group>"; };
 		097722761FBA947300C262C0 /* 1510626387.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1510626387.gif; sourceTree = "<group>"; };
+		09CEC4231FBBE48E00FC1B34 /* DoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorViewController.swift; sourceTree = "<group>"; };
+		09CEC4241FBBE48E00FC1B34 /* DoorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoorViewController.xib; sourceTree = "<group>"; };
+		09CEC4271FBC0E9100FC1B34 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		09CEC4281FBC0E9100FC1B34 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		09CEC42B1FBC0F6200FC1B34 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		09F5566A1FBD51DA004DCC03 /* 1510807754.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1510807754.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,7 @@
 		094DBE9B1FB7EBE5003E21F9 /* AR_ series */ = {
 			isa = PBXGroup;
 			children = (
+				09CEC4201FBBE44700FC1B34 /* Door */,
 				097722711FBA8CBE00C262C0 /* screenshots */,
 				094DBEAE1FB7ECF3003E21F9 /* SunSerial */,
 				091805E71FB9722400DBF315 /* ARluler */,
@@ -98,6 +113,7 @@
 				094DBEA31FB7EBE5003E21F9 /* Assets.xcassets */,
 				094DBEA51FB7EBE5003E21F9 /* LaunchScreen.storyboard */,
 				094DBEA81FB7EBE5003E21F9 /* Info.plist */,
+				093956701FBB1892008F51D1 /* ship.scn */,
 			);
 			path = "AR_ series";
 			sourceTree = "<group>";
@@ -114,11 +130,24 @@
 		097722711FBA8CBE00C262C0 /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				09F5566A1FBD51DA004DCC03 /* 1510807754.gif */,
 				097722761FBA947300C262C0 /* 1510626387.gif */,
 				097722721FBA8CBE00C262C0 /* 1510533381.gif */,
 				097722741FBA8CCF00C262C0 /* 1510626388.gif */,
 			);
 			path = screenshots;
+			sourceTree = "<group>";
+		};
+		09CEC4201FBBE44700FC1B34 /* Door */ = {
+			isa = PBXGroup;
+			children = (
+				09CEC42B1FBC0F6200FC1B34 /* Plane.swift */,
+				09CEC4231FBBE48E00FC1B34 /* DoorViewController.swift */,
+				09CEC4241FBBE48E00FC1B34 /* DoorViewController.xib */,
+				09CEC4271FBC0E9100FC1B34 /* TestViewController.swift */,
+				09CEC4281FBC0E9100FC1B34 /* TestViewController.xib */,
+			);
+			path = Door;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,13 +209,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F5566B1FBD51DA004DCC03 /* 1510807754.gif in Resources */,
 				094DBEA71FB7EBE5003E21F9 /* LaunchScreen.storyboard in Resources */,
 				097722771FBA947400C262C0 /* 1510626387.gif in Resources */,
+				093956711FBB1892008F51D1 /* ship.scn in Resources */,
+				09CEC42A1FBC0E9100FC1B34 /* TestViewController.xib in Resources */,
 				094DBEB21FB7FA28003E21F9 /* art.scnassets in Resources */,
 				097722751FBA8CD000C262C0 /* 1510626388.gif in Resources */,
 				094DBEA41FB7EBE5003E21F9 /* Assets.xcassets in Resources */,
 				091805EF1FB9782000DBF315 /* RulerViewController.xib in Resources */,
 				097722731FBA8CBE00C262C0 /* 1510533381.gif in Resources */,
+				09CEC4261FBBE48E00FC1B34 /* DoorViewController.xib in Resources */,
 				094DBEA21FB7EBE5003E21F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CEC4291FBC0E9100FC1B34 /* TestViewController.swift in Sources */,
 				094DBE9F1FB7EBE5003E21F9 /* ViewController.swift in Sources */,
 				094DBEB41FB85865003E21F9 /* CABasicAnimationExtension.swift in Sources */,
 				094DBEB01FB7ED25003E21F9 /* SCenViewController.swift in Sources */,
@@ -206,6 +240,8 @@
 				091805F11FB97AF900DBF315 /* Line.swift in Sources */,
 				091805EE1FB9782000DBF315 /* RulerViewController.swift in Sources */,
 				094DBE9D1FB7EBE5003E21F9 /* AppDelegate.swift in Sources */,
+				09CEC4251FBBE48E00FC1B34 /* DoorViewController.swift in Sources */,
+				09CEC42C1FBC0F6200FC1B34 /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

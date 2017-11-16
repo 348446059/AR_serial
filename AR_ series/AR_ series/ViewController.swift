@@ -11,7 +11,7 @@ let cellIdentifier = "cellIdentifier"
 
 class ViewController: UIViewController {
 
-    var data = ["太阳系","测距(尺子)"]
+    var data = ["太阳系","测距(尺子)","任意门"]
     
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
@@ -39,6 +39,8 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
         
         cell.textLabel?.text = data[indexPath.row]
+        
+        cell.imageView?.image = UIImage(named: "art.scnassets/grid.png")
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -49,6 +51,12 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         }else if(indexPath.row == 1){
             let rulerVC = RulerViewController()
             present(rulerVC, animated: true, completion: nil)
+            
+        }else if(indexPath.row == 2){
+            let roomVC = DoorViewController()
+            present(roomVC, animated: true, completion: nil)
+
+        
             
         }
     }
